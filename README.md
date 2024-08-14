@@ -14,7 +14,7 @@ To complete this step, run generateData.py. This will generate folders of images
 ## Training the model (Step 2 of 2)
 trainYolo.py splits the data into training and validation sets, and creates a dataset.yaml file to configure yolov5 for training. 
 
-After running trainyolo.py, you can run the following command to train the model. 
+After running trainYolo.py, you can run the following command to train the model. 
 
 python yolov5\train.py --img 640 --batch 32 --epochs 20 --data dataset.yaml --cfg yolov5s.yaml --name yolov5s_results
 
