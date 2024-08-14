@@ -2,7 +2,9 @@
 League of Legends is the most popular MOBA game with a significant global E-sports scene. Because of it's complexity and strategic pertinence it is subject to lots of analysis, and the most important aspects of the game are the locations of each player, which highly reflect the strategies, intentions, and future outcomes within the game. This repository provides a pipeline that trains yolov5 using augmented data, and can be used to collect positions of players over the course of a game in order to to develop, compare, and analyze strategies.
 
 ## Dependencies
+```
 pip install yolov5
+```
 
 Note that CUDA setup is recommended to run this locally with GPU. 
 
@@ -16,7 +18,9 @@ trainYolo.py splits the data into training and validation sets, and creates a da
 
 After running trainYolo.py, you can run the following command to train the model. 
 
+```
 python yolov5\train.py --img 640 --batch 32 --epochs 20 --data dataset.yaml --cfg yolov5s.yaml --name yolov5s_results
+```
 
 The results will be saved in the yolov5/runs/train folder.
 
