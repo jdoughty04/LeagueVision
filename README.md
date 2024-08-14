@@ -1,5 +1,5 @@
 # LeagueVision
-League of Legends is the most popular multiplayer online battle arena (MOBA) game, with a significant global E-sports scene. Because of it's high complexity and it's strategic pertinence, it is subject to lots of analysis. The most important aspects of the game state are the locations of the champions on the map, which highly reflect the strategies, intentions, and future outcomes within the game. This project introduces a way to collect positions of players over the course of a game, which can be used to develop, compare, and analyze strategies.
+League of Legends is the most popular multiplayer online battle arena (MOBA) game, with a significant global E-sports scene. Because of it's complexity and strategic pertinence it is subject to lots of analysis, and the most important aspects of the game are the locations of the champions which highly reflect the strategies, intentions, and future outcomes within the game. This project introduces a way to collect positions of players over the course of a game, which can be used to develop, compare, and analyze strategies.
 
 ## Dependencies
 pip install yolov5
